@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_beranda"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_beranda" />
+        <item
+            android:id="@+id/nav_daftar"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_listBS" />
+        <item
+            android:id="@+id/nav_redeem"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_poin" />
+        <item
+            android:id="@+id/nav_tabungan"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_tabungan" />
+        <item
+            android:id="@+id/nav_notifikasi"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_notif" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_profil" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menu_keluar" />
+    </group>
+</menu>
